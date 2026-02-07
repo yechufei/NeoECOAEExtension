@@ -59,3 +59,4 @@ jobs:
         with:
           name: "${{ steps.properties.outputs.mod_name }} v${{ steps.var.outputs.version }}-${{ env.short_hash }}"
           path: build/libs/*.jar
+          #aaaa
